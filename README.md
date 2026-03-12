@@ -2,27 +2,6 @@
 
 A modern, microservices-based insurance platform built with Python. This application demonstrates a real-world 3-tier architecture with separate services for policy administration, claims management, and billing.
 
-## Architecture
-
-The platform consists of three microservices and an API gateway:
-┌─────────────────────────────────────┐
-│ Frontend (Port 5000)                │
-│ HTML/CSS/JavaScript                 │
-└───────────────┬─────────────────────┘
-                │
-                ▼
-┌─────────────────────────────────────┐
-│ API Gateway (Port 5000)             │
-│ Flask                               │
-└───────┬───────────────┬─────────────┘
-        │      │        │
-        ▼      ▼        ▼
-┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-│ Policy      │ │ Claims      │ │ Billing     │
-│ Service     │ │ Service     │ │ Service     │
-│ (8001)      │ │ (8002)      │ │ (8003)      │
-└─────────────┘ └─────────────┘ └─────────────┘
-
 
 ## Features
 
