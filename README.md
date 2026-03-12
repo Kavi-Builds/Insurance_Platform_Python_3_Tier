@@ -15,8 +15,8 @@ The platform consists of three microservices and an API gateway:
 │ API Gateway (Port 5000)             │
 │ Flask                               │
 └───────┬───────────────┬─────────────┘
-        │      │        │
-        ▼      ▼        ▼
+        │             │            │
+        ▼             ▼            ▼
 ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
 │ Policy      │ │ Claims      │ │ Billing     │
 │ Service     │ │ Service     │ │ Service     │
