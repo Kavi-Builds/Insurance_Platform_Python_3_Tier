@@ -44,3 +44,10 @@ $RECYCLE.BIN/
 *.swp
 *.swo
 *~
+
+#terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl

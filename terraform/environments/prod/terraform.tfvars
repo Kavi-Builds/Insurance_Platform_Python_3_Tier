@@ -1,0 +1,5 @@
+location              = "canadacentral"
+environment           = "prod"
+sql_admin_username    = "sqladmin"
+app_service_name      = "insurance-app-prod-2026"
+sql_server_name       = "sql-insurance-prod-2026"

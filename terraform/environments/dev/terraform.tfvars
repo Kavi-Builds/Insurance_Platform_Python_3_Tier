@@ -1,0 +1,5 @@
+location              = "canadacentral"
+environment           = "dev"
+sql_admin_username    = "sqladmin"
+app_service_name      = "insurance-app-dev-2026"
+sql_server_name       = "sql-insurance-dev-2026"
